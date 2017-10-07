@@ -1,0 +1,52 @@
+header .navbar-tabs{
+  justify-content: center;
+}
+
+.highlight {
+  margin-bottom: 0 !important;
+}
+
+
+.highlight .highlight-item {
+  height: 500px;
+  background: url(/assets/images/home/myflower/h.jpg)no-repeat center/cover; 
+
+  color: #E2C3FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.highlight .highlight-item h1 {
+  font-size: 50px;
+}
+
+.thumbnail {
+  border-top: 0.1rem solid #ffffff;
+}
+
+/*.thumbnail .thumbnail-item {
+  border-right: .1rem solid #ffffff;
+}
+
+.thumbnail .thumbnail-item:last-child{
+  border:none;
+}*/
+
+.thumbnail .thumbnail-item + .thumbnail-item /*คนแรกจะมาร์คคนถัดไป*/
+{
+  border-left: .1rem solid #ffffff;
+}
+
+.thumbnail .thumbnail-item{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
