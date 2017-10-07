@@ -1,5 +1,16 @@
 exports.index = function(req, res){
-	let content = {
+	res.render('news.twig')
+
+
+
+
+
+
+
+
+
+
+/*	let content = {
 		banner: [
 			{
 				id: 1,
@@ -15,5 +26,5 @@ exports.index = function(req, res){
 		]
 	}
 
-	res. json(content)
+	res. json(content) */
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- main language in your web -->
+<head>
+	<meta charset="UTF-8"> 
+	<!-- web use for read thai english or other language, 
+	if we don't write it, your web will have only alien language -->
+	<title>Smindchotima</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css"> <!-- download css framework from bluma its good for mobile first because it haven't java script -->
+
+<!--	<style type="text/css">
+		.navbar-item{
+
+		}
+	</style> -->
+
+<!--	<link rel="stylesheet" href="/assets/home.css"> --> <!-- call file home to align to center-->
+
+	<link rel="stylesheet" href="/assets/main.css">
+
+	{% block stylesheet %} {% endblock %}
+
+</head>
+
+<body>
+
+	{% include 'layout/header.twig' ignore missing %}
+
+	{% block content %}
+	{% endblock %}
+
+
+
+</body>
+</html>
